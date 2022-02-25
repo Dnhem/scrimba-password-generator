@@ -93,23 +93,3 @@ generateBtn.addEventListener("click", e => {
   e.preventDefault();
   fillPwBoxes();
 });
-
-function copyPw(box) {
-  box.select();
-  box.setSelectionRange(0, 99999); /* For mobile devices */
-
-  /* Copy the text inside the text field */
-  navigator.clipboard.writeText(box.value);
-}
-
-btns = document.querySelectorAll(".greet");
-
-for (let btn of btns) {
-  btn.addEventListener("click", function() {
-    console.log("clicked!");
-  });
-}
-
-function notify() {
-  console.log("clicked");
-}
