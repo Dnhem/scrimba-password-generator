@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Password Generator</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><span class="highlight">Generate a</span> <br/> random password</h1>
+      <h2 class="supporting-text">Never use an insecure password again</h2>
+    </header>
+    <button class="generate-btn"><i class="fa-solid fa-bolt"></i>Generate passwords</button>
+    <input type="range" class="range" value="8" min="5" max="20">
+    <hr>
+  
+    
+    <div class="passwords">
+      <div class="col-1">
+        <input class="pw-box" type="text" placeholder="..." disabled>
+        <input class="pw-box" type="text" placeholder="..." disabled>
+      </div>
+      <div class="col-2">
+        <input class="pw-box" type="text" placeholder="..." disabled>
+        <input class="pw-box" type="text" placeholder="..." disabled>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

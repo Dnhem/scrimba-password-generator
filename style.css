@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  background-color: #1f2937;
+  overflow: hidden;
+}
+
+.container {
+  margin-left: 25px;
+  max-width: 800px;
+}
+
+header {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  color: #10b981;
+}
+
+.highlight {
+  color: #fff;
+}
+
+.supporting-text {
+  margin-top: -25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #d5d4d8;
+}
+
+.generate-btn {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative;
+  padding: 9px 17px 9px 15px;
+  width: 223px;
+  height: 42px;
+  color: #fff;
+  background: #10b981;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.fa-bolt {
+  position: absolute;
+  left: 5px;
+}
+
+input {
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 25px;
+  width: 211px;
+  height: 39px;
+  background: #273549;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.range {
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+input[type=range] {
+  width: 223px;
+  margin-left: 25px;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  background: #273549;
+  border: 0;
+  border-radius: 20.8px;
+  width: 100%;
+  height: 21px;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  margin-top: -7.5px;
+  width: 35px;
+  height: 36px;
+  background: #10b981;
+  border: 2.5px solid #273549;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #273549;
+}
+input[type=range]::-moz-range-track {
+  background: #273549;
+  border: 0;
+  border-radius: 20.8px;
+  width: 100%;
+  height: 21px;
+  cursor: pointer;
+}
+input[type=range]::-moz-range-thumb {
+  width: 35px;
+  height: 36px;
+  background: #10b981;
+  border: 2.5px solid #273549;
+  border-radius: 50px;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 8.5px 0;
+  color: transparent;
+  width: 100%;
+  height: 21px;
+  cursor: pointer;
+}
+input[type=range]::-ms-fill-lower {
+  background: #273549;
+  border: 0;
+  border-radius: 41.6px;
+}
+input[type=range]::-ms-fill-upper {
+  background: #273549;
+  border: 0;
+  border-radius: 41.6px;
+}
+input[type=range]::-ms-thumb {
+  width: 35px;
+  height: 36px;
+  background: #10b981;
+  border: 2.5px solid #273549;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 0px;
+  /*Needed to keep the Edge thumb centred*/
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #273549;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #273549;
+}
